@@ -1,6 +1,19 @@
 # Routing Mux Bits
 
 # Non-Routing Configuration
+.config ALU54_7.DYN_OPR_INV 11101111111
+-
+-
+-
+-
+-
+-
+-
+F0B0
+-
+-
+-
+
 .config_enum ALU54_7.CLK0_DIV ENABLED
 DISABLED F9B0
 ENABLED -
