@@ -55,10 +55,6 @@ W3_JPO9 F33B0
 
 
 # Non-Routing Configuration
-.config_enum ALU54_3.MODE NONE
-ALU54B F34B0 F41B0
-NONE -
-
 .config_enum MULT18_0.CE0MUX INV
 CE0 F46B0
 INV -
