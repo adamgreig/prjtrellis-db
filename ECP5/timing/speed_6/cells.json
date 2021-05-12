@@ -1,4 +1,2070 @@
 {
+    "ALU54B:IN=NOREG,PL=NOREG,OUT=NOREG,BYPASS=OFF": [
+        {
+            "falling": [
+                2184,
+                2908,
+                3633
+            ],
+            "from_pin": "C",
+            "rising": [
+                2184,
+                2908,
+                3633
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2279,
+                2924,
+                3570
+            ],
+            "from_pin": "SIGNEDIA",
+            "rising": [
+                2279,
+                2924,
+                3570
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2279,
+                2924,
+                3570
+            ],
+            "from_pin": "SIGNEDIB",
+            "rising": [
+                2279,
+                2924,
+                3570
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                619,
+                1260,
+                1901
+            ],
+            "from_pin": "MA",
+            "rising": [
+                619,
+                1260,
+                1901
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                619,
+                1260,
+                1901
+            ],
+            "from_pin": "MB",
+            "rising": [
+                619,
+                1260,
+                1901
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        }
+    ],
+    "ALU54B:IN=NOREG,PL=NOREG,OUT=NOREG,BYPASS=ON": [
+        {
+            "falling": [
+                1732,
+                2420,
+                3108
+            ],
+            "from_pin": "A",
+            "rising": [
+                1732,
+                2420,
+                3108
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                1732,
+                2420,
+                3108
+            ],
+            "from_pin": "B",
+            "rising": [
+                1732,
+                2420,
+                3108
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2184,
+                2908,
+                3633
+            ],
+            "from_pin": "C",
+            "rising": [
+                2184,
+                2908,
+                3633
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2279,
+                2924,
+                3570
+            ],
+            "from_pin": "SIGNEDIA",
+            "rising": [
+                2279,
+                2924,
+                3570
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2279,
+                2924,
+                3570
+            ],
+            "from_pin": "SIGNEDIB",
+            "rising": [
+                2279,
+                2924,
+                3570
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        }
+    ],
+    "ALU54B:IN=NOREG,PL=NOREG,OUT=REG,BYPASS=OFF": [
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "C",
+            "setup": [
+                2552,
+                3024,
+                3497
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "CE0",
+            "setup": [
+                105,
+                126,
+                147
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "MA",
+            "setup": [
+                766,
+                1265,
+                1764
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "MB",
+            "setup": [
+                766,
+                1265,
+                1764
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "SIGNEDIA",
+            "setup": [
+                1732,
+                2241,
+                2751
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "SIGNEDIB",
+            "setup": [
+                1732,
+                2241,
+                2751
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                21
+            ],
+            "pin": "RST0",
+            "setup": [
+                32,
+                42,
+                53
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "falling": [
+                578,
+                656,
+                735
+            ],
+            "from_pin": "CLK0",
+            "rising": [
+                578,
+                656,
+                735
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        }
+    ],
+    "ALU54B:IN=NOREG,PL=NOREG,OUT=REG,BYPASS=ON": [
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "A",
+            "setup": [
+                2090,
+                2531,
+                2972
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "B",
+            "setup": [
+                2090,
+                2531,
+                2972
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "C",
+            "setup": [
+                2552,
+                3024,
+                3497
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "CE0",
+            "setup": [
+                105,
+                126,
+                147
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "SIGNEDIA",
+            "setup": [
+                1732,
+                2241,
+                2751
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "SIGNEDIB",
+            "setup": [
+                1732,
+                2241,
+                2751
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                21
+            ],
+            "pin": "RST0",
+            "setup": [
+                32,
+                42,
+                53
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "falling": [
+                578,
+                656,
+                735
+            ],
+            "from_pin": "CLK0",
+            "rising": [
+                578,
+                656,
+                735
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        }
+    ],
+    "ALU54B:IN=NOREG,PL=REG,OUT=NOREG,BYPASS=OFF": [
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                21
+            ],
+            "pin": "CE0",
+            "setup": [
+                147,
+                199,
+                252
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                63,
+                73,
+                84
+            ],
+            "pin": "RST0",
+            "setup": [
+                63,
+                79,
+                95
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "falling": [
+                1995,
+                2698,
+                3402
+            ],
+            "from_pin": "CLK0",
+            "rising": [
+                1995,
+                2698,
+                3402
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2184,
+                2908,
+                3633
+            ],
+            "from_pin": "C",
+            "rising": [
+                2184,
+                2908,
+                3633
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2279,
+                2924,
+                3570
+            ],
+            "from_pin": "SIGNEDIA",
+            "rising": [
+                2279,
+                2924,
+                3570
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2279,
+                2924,
+                3570
+            ],
+            "from_pin": "SIGNEDIB",
+            "rising": [
+                2279,
+                2924,
+                3570
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                619,
+                1260,
+                1901
+            ],
+            "from_pin": "MA",
+            "rising": [
+                619,
+                1260,
+                1901
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                619,
+                1260,
+                1901
+            ],
+            "from_pin": "MB",
+            "rising": [
+                619,
+                1260,
+                1901
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        }
+    ],
+    "ALU54B:IN=NOREG,PL=REG,OUT=NOREG,BYPASS=ON": [
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                21
+            ],
+            "pin": "CE0",
+            "setup": [
+                147,
+                199,
+                252
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                63,
+                73,
+                84
+            ],
+            "pin": "RST0",
+            "setup": [
+                63,
+                79,
+                95
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "falling": [
+                1732,
+                2420,
+                3108
+            ],
+            "from_pin": "A",
+            "rising": [
+                1732,
+                2420,
+                3108
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                1732,
+                2420,
+                3108
+            ],
+            "from_pin": "B",
+            "rising": [
+                1732,
+                2420,
+                3108
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                1995,
+                2698,
+                3402
+            ],
+            "from_pin": "CLK0",
+            "rising": [
+                1995,
+                2698,
+                3402
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2184,
+                2908,
+                3633
+            ],
+            "from_pin": "C",
+            "rising": [
+                2184,
+                2908,
+                3633
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2279,
+                2924,
+                3570
+            ],
+            "from_pin": "SIGNEDIA",
+            "rising": [
+                2279,
+                2924,
+                3570
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2279,
+                2924,
+                3570
+            ],
+            "from_pin": "SIGNEDIB",
+            "rising": [
+                2279,
+                2924,
+                3570
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        }
+    ],
+    "ALU54B:IN=NOREG,PL=REG,OUT=REG,BYPASS=OFF": [
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "C",
+            "setup": [
+                2552,
+                3024,
+                3497
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "MA",
+            "setup": [
+                766,
+                1265,
+                1764
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "MB",
+            "setup": [
+                766,
+                1265,
+                1764
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "SIGNEDIA",
+            "setup": [
+                1732,
+                2241,
+                2751
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "SIGNEDIB",
+            "setup": [
+                1732,
+                2241,
+                2751
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                21
+            ],
+            "pin": "CE0",
+            "setup": [
+                147,
+                199,
+                252
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                63,
+                73,
+                84
+            ],
+            "pin": "RST0",
+            "setup": [
+                63,
+                79,
+                95
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "falling": [
+                578,
+                656,
+                735
+            ],
+            "from_pin": "CLK0",
+            "rising": [
+                578,
+                656,
+                735
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        }
+    ],
+    "ALU54B:IN=NOREG,PL=REG,OUT=REG,BYPASS=ON": [
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "A",
+            "setup": [
+                2090,
+                2531,
+                2972
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "B",
+            "setup": [
+                2090,
+                2531,
+                2972
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "C",
+            "setup": [
+                2552,
+                3024,
+                3497
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "SIGNEDIA",
+            "setup": [
+                1732,
+                2241,
+                2751
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "SIGNEDIB",
+            "setup": [
+                1732,
+                2241,
+                2751
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                21
+            ],
+            "pin": "CE0",
+            "setup": [
+                147,
+                199,
+                252
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                63,
+                73,
+                84
+            ],
+            "pin": "RST0",
+            "setup": [
+                63,
+                79,
+                95
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "falling": [
+                578,
+                656,
+                735
+            ],
+            "from_pin": "CLK0",
+            "rising": [
+                578,
+                656,
+                735
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        }
+    ],
+    "ALU54B:IN=REG,PL=NOREG,OUT=NOREG,BYPASS=OFF": [
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                21
+            ],
+            "pin": "CE0",
+            "setup": [
+                147,
+                199,
+                252
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                63,
+                73,
+                84
+            ],
+            "pin": "RST0",
+            "setup": [
+                63,
+                79,
+                95
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "falling": [
+                2184,
+                2908,
+                3633
+            ],
+            "from_pin": "C",
+            "rising": [
+                2184,
+                2908,
+                3633
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2279,
+                2924,
+                3570
+            ],
+            "from_pin": "SIGNEDIA",
+            "rising": [
+                2279,
+                2924,
+                3570
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2279,
+                2924,
+                3570
+            ],
+            "from_pin": "SIGNEDIB",
+            "rising": [
+                2279,
+                2924,
+                3570
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2321,
+                2961,
+                3602
+            ],
+            "from_pin": "CLK0",
+            "rising": [
+                2321,
+                2961,
+                3602
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                619,
+                1260,
+                1901
+            ],
+            "from_pin": "MA",
+            "rising": [
+                619,
+                1260,
+                1901
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                619,
+                1260,
+                1901
+            ],
+            "from_pin": "MB",
+            "rising": [
+                619,
+                1260,
+                1901
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        }
+    ],
+    "ALU54B:IN=REG,PL=NOREG,OUT=NOREG,BYPASS=ON": [
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                21
+            ],
+            "pin": "CE0",
+            "setup": [
+                147,
+                199,
+                252
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                63,
+                73,
+                84
+            ],
+            "pin": "RST0",
+            "setup": [
+                63,
+                79,
+                95
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "falling": [
+                1732,
+                2420,
+                3108
+            ],
+            "from_pin": "A",
+            "rising": [
+                1732,
+                2420,
+                3108
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                1732,
+                2420,
+                3108
+            ],
+            "from_pin": "B",
+            "rising": [
+                1732,
+                2420,
+                3108
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2184,
+                2908,
+                3633
+            ],
+            "from_pin": "C",
+            "rising": [
+                2184,
+                2908,
+                3633
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2279,
+                2924,
+                3570
+            ],
+            "from_pin": "SIGNEDIA",
+            "rising": [
+                2279,
+                2924,
+                3570
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2279,
+                2924,
+                3570
+            ],
+            "from_pin": "SIGNEDIB",
+            "rising": [
+                2279,
+                2924,
+                3570
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2321,
+                2961,
+                3602
+            ],
+            "from_pin": "CLK0",
+            "rising": [
+                2321,
+                2961,
+                3602
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        }
+    ],
+    "ALU54B:IN=REG,PL=NOREG,OUT=REG,BYPASS=OFF": [
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "C",
+            "setup": [
+                2552,
+                3024,
+                3497
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "MA",
+            "setup": [
+                766,
+                1265,
+                1764
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "MB",
+            "setup": [
+                766,
+                1265,
+                1764
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "SIGNEDIA",
+            "setup": [
+                1732,
+                2241,
+                2751
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "SIGNEDIB",
+            "setup": [
+                1732,
+                2241,
+                2751
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                21
+            ],
+            "pin": "CE0",
+            "setup": [
+                147,
+                199,
+                252
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                63,
+                73,
+                84
+            ],
+            "pin": "RST0",
+            "setup": [
+                63,
+                79,
+                95
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "falling": [
+                578,
+                656,
+                735
+            ],
+            "from_pin": "CLK0",
+            "rising": [
+                578,
+                656,
+                735
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        }
+    ],
+    "ALU54B:IN=REG,PL=NOREG,OUT=REG,BYPASS=ON": [
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "A",
+            "setup": [
+                2090,
+                2531,
+                2972
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "B",
+            "setup": [
+                2090,
+                2531,
+                2972
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "C",
+            "setup": [
+                2552,
+                3024,
+                3497
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "SIGNEDIA",
+            "setup": [
+                1732,
+                2241,
+                2751
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "SIGNEDIB",
+            "setup": [
+                1732,
+                2241,
+                2751
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                21
+            ],
+            "pin": "CE0",
+            "setup": [
+                147,
+                199,
+                252
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                63,
+                73,
+                84
+            ],
+            "pin": "RST0",
+            "setup": [
+                63,
+                79,
+                95
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "falling": [
+                578,
+                656,
+                735
+            ],
+            "from_pin": "CLK0",
+            "rising": [
+                578,
+                656,
+                735
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        }
+    ],
+    "ALU54B:IN=REG,PL=REG,OUT=NOREG,BYPASS=OFF": [
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                21
+            ],
+            "pin": "CE0",
+            "setup": [
+                147,
+                199,
+                252
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                63,
+                73,
+                84
+            ],
+            "pin": "RST0",
+            "setup": [
+                63,
+                79,
+                95
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "falling": [
+                2184,
+                2908,
+                3633
+            ],
+            "from_pin": "C",
+            "rising": [
+                2184,
+                2908,
+                3633
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2279,
+                2924,
+                3570
+            ],
+            "from_pin": "SIGNEDIA",
+            "rising": [
+                2279,
+                2924,
+                3570
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2279,
+                2924,
+                3570
+            ],
+            "from_pin": "SIGNEDIB",
+            "rising": [
+                2279,
+                2924,
+                3570
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2321,
+                2961,
+                3602
+            ],
+            "from_pin": "CLK0",
+            "rising": [
+                2321,
+                2961,
+                3602
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                619,
+                1260,
+                1901
+            ],
+            "from_pin": "MA",
+            "rising": [
+                619,
+                1260,
+                1901
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                619,
+                1260,
+                1901
+            ],
+            "from_pin": "MB",
+            "rising": [
+                619,
+                1260,
+                1901
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        }
+    ],
+    "ALU54B:IN=REG,PL=REG,OUT=NOREG,BYPASS=ON": [
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                21
+            ],
+            "pin": "CE0",
+            "setup": [
+                147,
+                199,
+                252
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                63,
+                73,
+                84
+            ],
+            "pin": "RST0",
+            "setup": [
+                63,
+                79,
+                95
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "falling": [
+                1732,
+                2420,
+                3108
+            ],
+            "from_pin": "A",
+            "rising": [
+                1732,
+                2420,
+                3108
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                1732,
+                2420,
+                3108
+            ],
+            "from_pin": "B",
+            "rising": [
+                1732,
+                2420,
+                3108
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2184,
+                2908,
+                3633
+            ],
+            "from_pin": "C",
+            "rising": [
+                2184,
+                2908,
+                3633
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2279,
+                2924,
+                3570
+            ],
+            "from_pin": "SIGNEDIA",
+            "rising": [
+                2279,
+                2924,
+                3570
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2279,
+                2924,
+                3570
+            ],
+            "from_pin": "SIGNEDIB",
+            "rising": [
+                2279,
+                2924,
+                3570
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                2321,
+                2961,
+                3602
+            ],
+            "from_pin": "CLK0",
+            "rising": [
+                2321,
+                2961,
+                3602
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        }
+    ],
+    "ALU54B:IN=REG,PL=REG,OUT=REG,BYPASS=OFF": [
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "C",
+            "setup": [
+                2552,
+                3024,
+                3497
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "MA",
+            "setup": [
+                766,
+                1265,
+                1764
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "MB",
+            "setup": [
+                766,
+                1265,
+                1764
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "SIGNEDIA",
+            "setup": [
+                1732,
+                2241,
+                2751
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "SIGNEDIB",
+            "setup": [
+                1732,
+                2241,
+                2751
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                21
+            ],
+            "pin": "CE0",
+            "setup": [
+                147,
+                199,
+                252
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                63,
+                73,
+                84
+            ],
+            "pin": "RST0",
+            "setup": [
+                63,
+                79,
+                95
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "falling": [
+                578,
+                656,
+                735
+            ],
+            "from_pin": "CLK0",
+            "rising": [
+                578,
+                656,
+                735
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        }
+    ],
+    "ALU54B:IN=REG,PL=REG,OUT=REG,BYPASS=ON": [
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "A",
+            "setup": [
+                2090,
+                2531,
+                2972
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "B",
+            "setup": [
+                2090,
+                2531,
+                2972
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "C",
+            "setup": [
+                2552,
+                3024,
+                3497
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "SIGNEDIA",
+            "setup": [
+                1732,
+                2241,
+                2751
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "SIGNEDIB",
+            "setup": [
+                1732,
+                2241,
+                2751
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                0,
+                0,
+                21
+            ],
+            "pin": "CE0",
+            "setup": [
+                147,
+                199,
+                252
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK0"
+            ],
+            "hold": [
+                63,
+                73,
+                84
+            ],
+            "pin": "RST0",
+            "setup": [
+                63,
+                79,
+                95
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "falling": [
+                578,
+                656,
+                735
+            ],
+            "from_pin": "CLK0",
+            "rising": [
+                578,
+                656,
+                735
+            ],
+            "to_pin": "R",
+            "type": "IOPath"
+        }
+    ],
     "DP16KD:REGMODE_A=NOREG,REGMODE_B=NOREG": [
         {
             "clock": [
